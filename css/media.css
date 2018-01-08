@@ -1,0 +1,40 @@
+@media all and (max-width: 768px) {
+  .mobile-display {
+    display: none;
+  }
+
+  div.col-10-mobile {
+    width: calc(83.33% - 20px);
+  }
+
+  div.height-mobile {
+    height: 1545px;
+  }
+
+  div.col-12-mobile {
+    width: calc(100% - 20px);
+  }
+
+  section.about-us-mobile {
+    height: 500px;
+  }
+
+  section.info-mobile {
+    height: 1570px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  div.col-12-height {
+    height: 150px;
+  }
+
+  div.perritos {
+    height: 260px;
+  }
+
+  section.images-mobile {
+    height: 1045px;
+  }
+}
+  /**/
