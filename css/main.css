@@ -1,6 +1,9 @@
 /*section.container {
   background-color: gray;
 }*/
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 div.col-1, div.col-6 {
   outline: 1px solid red;
@@ -31,6 +34,145 @@ h1, p.menu, .tagline {
 p.menu, p.tagline {
   text-align: center;
   /*font-size: 50px;*/
+}
+
+p.tagline {
+  font-size: 68px;
+}
+
+section.background {
+  outline: 1px solid red;
+  background-image: url("https://dummyimage.com/1920x400");
+  background-position: center;
+  background-size: 100% 100%;
+  width: 100%;
+}
+
+section.info {
+  outline: 5px solid black;
+  height: 650px;
+}
+
+.col-10 {
+  outline: 2px solid blue;
+  height: 635px;
+}
+
+.about-us {
+  outline: 1px solid red;
+  height: 255px;
+}
+
+.images {
+  outline: 5px solid black;
+  height: 370px;
+}
+
+.col-8 {
+  outline: 1px solid orange;
+  height: 230px;
+}
+
+.col-4 {
+  outline: 1px solid green;
+  height: 230px;
+}
+
+.us {
+  outline: 1px solid red;
+}
+
+.hola {
+  outline: 1px solid pink;
+  margin-top: 10px;
+}
+
+.button {
+  outline: 1px solid pink;
+  margin-top: 10px;
+}
+
+.height {
+  height: 350px;
+}
+
+.background-images {
+  background-image: url("https://dummyimage.com/300x200/000/fff");
+  background-position: center;
+  outline: 1px solid purple;
+  background-size: 100% 100%;
+  height: 140px;
+}
+
+.text-images {
+  outline: 1px solid blue;
+  height: 150px;
+}
+
+.row-title {
+  outline: 1px solid red;
+}
+
+.col-12-title {
+  outline: 1px solid black;
+}
+
+.row-text {
+  outline: 1px solid orange;
+}
+
+.col-12-text {
+  outline: 1px solid pink;
+}
+
+.row-button {
+  outline: 2px solid purple;
+  height: 60px;
+}
+
+.footer {
+  outline: 1px solid red;
+  height: 100px;
+}
+
+.text-footer {
+  outline: 1px solid orange;
+  height: 75px;
+  text-align: center;
+}
+/*body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+div.col-1, div.col-6 {
+  outline: 1px solid red;
+}
+
+div.margin {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+section.header, .footer {
+  background-color: #343A40;
+}
+
+div.col-2 {
+  outline: 1px solid green;
+}
+
+div.name-tagline {
+  /*outline: 1px solid pink;
+  height: 250px;
+}
+
+h1, p.menu, .tagline {
+  color: white;
+}
+
+p.menu, p.tagline {
+  text-align: center;
+  /*font-size: 50px;
 }
 
 section.background {
@@ -130,4 +272,4 @@ section.info {
   outline: 1px solid orange;
   height: 75px;
   text-align: center;
-}
+}*/
