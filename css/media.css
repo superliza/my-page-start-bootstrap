@@ -29,12 +29,40 @@
     height: 150px;
   }
 
-  div.perritos {
+  div.height-mobile-12 {
     height: 260px;
   }
 
   section.images-mobile {
     height: 1045px;
+  }
+}
+
+@media all and (max-width: 360px) {
+  div.height-col-12-mobile {
+    height: 300px;
+  }
+}
+
+@media all and (max-width: 298px) {
+  div.height-width-298 {
+    height: 330px;
+  }
+
+  section.images-row {
+    height: 1042px;
+  }
+
+  section.about-us-row {
+    height: 520px;
+  }
+
+  section.info-row {
+    height: 1600px;
+  }
+
+  div.height-mobile-298 {
+    height: 1570px;
   }
 }
   /**/
